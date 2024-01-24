@@ -22,9 +22,7 @@ export default function Column3(){
           </label>
           <input
             type="text"
-            className="p-4 m-4 w-200 h-50 border
-                border-slate-300"
-            style={{ width: "350px", height: "170px" }}
+            className="p-4 m-4 w-full md:w-72 h-20 md:h-32 border border-slate-300"
             placeholder="Value"
           />
         </div>
