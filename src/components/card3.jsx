@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Card3() {
   return (
@@ -14,7 +15,14 @@ export default function Card3() {
         </div>
       </div>
       <p className="text-gray-700 text-md font-inter font-normal">
-        Include the Link to Your Store's Navigation Menu. Very Good Experience.
+        Include the
+        <Link
+          to="https://50d72d-5.myshopify.com/password"
+          className="text-blue-500 underline hover:text-blue-700 pl-1 pr-1"
+        >
+          Link
+        </Link>
+        to Your Store's Navigation Menu. Very Good Experience.
       </p>
       <div className="mt-4 flex gap-2 justify-start">
         <button className="rounded-lg border border-slate-200 bg-white p-1 m-2">
