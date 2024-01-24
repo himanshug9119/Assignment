@@ -1,6 +1,6 @@
-import C1 from "./Column1";
-import C2 from "./Column2";
-import C3 from "./Column3";
+import C1 from "./Page3Column1";
+import C2 from "./Page3Column2";
+import C3 from "./Page3Column3";
 export default function Page3() {
   return (
     <div className="w-full pl-12 pr-12">

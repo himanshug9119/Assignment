@@ -9,7 +9,7 @@ export default function Page1() {
       <h1 className="font-inter text-2xl font-semibold mb-5 mt-14">
         Welcome, Himanshu Gupta!!
       </h1>
-      <div className="flex gap-6">
+      <div className="flex gap-6 flex-wrap">
         <Card1 />
         <Card2 />
         <Card3 />
