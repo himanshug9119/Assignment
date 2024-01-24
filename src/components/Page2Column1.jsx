@@ -24,7 +24,7 @@ export default function Page2Column1(){
             </div>
           </diu>
           <div className="flex justify-center align-middle">
-            <img src="../assets/icons/circle.jpg" alt="graph" />
+            <img src="./icons/circle.png" alt="graph" className="p-4"/>
           </div>
           <div className="p-3 flex justify-between flex-wrap">
             <div className="flex items-center gap-2">

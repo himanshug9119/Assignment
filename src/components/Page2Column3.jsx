@@ -12,21 +12,17 @@ export default function Page2Column3(){
         </div>
         <div>
           <div className="flex justify-between rounded-lg bg-order-color p-4 m-4">
-            {/* First Column */}
             <div className="p-4">
               <p className="font-inter text-sm font-medium pb-2">Orders</p>
               <h1 className="font-inter text-3xl font-bold leading-12 tracking-tighter">
                 80
               </h1>
             </div>
-
-            {/* Second Column */}
             <div className="flex items-center ml-4">
-              <img src="order.png" alt="order" />
+              <img src="./icons/order.png" alt="order" className="mr-4" />
             </div>
           </div>
           <div className="flex justify-between rounded-md bg-eye-color p-4 m-4">
-            {/* First Column */}
             <div className="p-4">
               <p className="font-inter text-sm font-medium pb-2">
                 Tracking Page Views
@@ -35,10 +31,8 @@ export default function Page2Column3(){
                 44
               </h1>
             </div>
-
-            {/* Second Column */}
             <div className="flex items-center ml-4">
-              <img src="../assets/icons/eye.jpg" alt="order" />
+              <img src="./icons/eye.png" alt="order" className="mr-4" />
             </div>
           </div>
         </div>

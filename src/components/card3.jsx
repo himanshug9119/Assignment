@@ -3,8 +3,12 @@ import React from "react";
 export default function Card3() {
   return (
     <div className="max-w-sm rounded-lg bg-blue-dark p-4 h-50">
-      <div className="flex justify-start">
-        <img src="../assets/icons/info.png" alt="info" className="m-1" />
+      <div className="flex items-start">
+        <img
+          src="./icons/info.png"
+          alt="info"
+          className="mr-2 mt-1 flex-shrink-0"
+        />
         <div className="text-md font-inter font-semibold mb-2">
           Your Tracking Link has been generated
         </div>
