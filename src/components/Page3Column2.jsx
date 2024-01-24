@@ -12,7 +12,7 @@ export default function Column2(){
               streamline your experience.
             </p>
           </div>
-          <div className="px-6 py-1">
+          <div className="px-6 py-4">
             <button className="bg-button-color text-white font-inter text-sm font-medium leading-4 tracking-normal py-2 px-2 rounded-xl">
               Schedule a Call
             </button>
@@ -30,8 +30,8 @@ export default function Column2(){
               convenience.
             </p>
           </div>
-          <img src="./icons/Logos.png" alt="Logo" />
-          <div className="px-6 py-1">
+          <img src="./icons/Logos.png" alt="Logo" className="pl-6"/>
+          <div className="px-6 py-4">
             <button className="bg-button-color text-white font-inter text-sm font-medium leading-4 tracking-normal py-2 px-2 rounded-xl">
               Explore Integrations
             </button>

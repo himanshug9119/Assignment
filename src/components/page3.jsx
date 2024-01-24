@@ -3,7 +3,7 @@ import C2 from "./Page3Column2";
 import C3 from "./Page3Column3";
 export default function Page3() {
   return (
-    <div className="w-full pl-12 pr-12">
+    <div className="w-full pl-12 pr-12 pb-12">
       <h1 className="font-inter text-xl font-bold leading-8 tracking-tighter p-4">
         Discover the Heart of Our Functionality
       </h1>
